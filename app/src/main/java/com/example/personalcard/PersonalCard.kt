@@ -3,6 +3,8 @@ package com.example.personalcard
 import android.annotation.SuppressLint
 import android.net.Uri
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
@@ -85,5 +87,17 @@ class PersonalCard : AppCompatActivity() {
         }
         val daysUntilBirthDay = ((birthDate.timeInMillis - today.timeInMillis) / (1000 * 60 * 60 * 24)).toInt()
         return daysUntilBirthDay
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_item, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId) {
+            R.id.exitMenuItem -> finishAffinity()
+        }
+        return super.onOptionsItemSelected(item)
     }
 }

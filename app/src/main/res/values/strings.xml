@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PersonalCard</string>
+    <string name="hintNameET">Введите имя</string>
+    <string name="hintDateOfBirthET">Выберите дату рождения</string>
+    <string name="hintSecondNameET">Введите фамилию</string>
+    <string name="textSaveBTN">Сохранить</string>
+    <string name="titleMenuExit">Выход</string>
+    <string name="textNameTV">Имя</string>
+    <string name="textDateOfBirthTV">Дата рождения</string>
+    <string name="textSecondNameTV">Фамилия</string>
+</resources>

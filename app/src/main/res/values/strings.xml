@@ -8,4 +8,6 @@
     <string name="textNameTV">Имя</string>
     <string name="textDateOfBirthTV">Дата рождения</string>
     <string name="textSecondNameTV">Фамилия</string>
+    <string name="textAgeTV">Возраст</string>
+    <string name="textDaysUntilBirthTV">Дней до дня рождения</string>
 </resources>

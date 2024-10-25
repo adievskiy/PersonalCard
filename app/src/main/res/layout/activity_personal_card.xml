@@ -76,6 +76,30 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="Autofill,TextFields" />
 
+        <TextView
+            android:id="@+id/ageTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textAgeTV"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="Autofill,TextFields" />
+
+        <TextView
+            android:id="@+id/daysUntilBirthTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textDaysUntilBirthTV"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="Autofill,TextFields" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
